@@ -1,2 +1,2 @@
 ﻿namespace UserManagement.Entities;
-internal record UserId(int id);
+public record UserId(int id);
