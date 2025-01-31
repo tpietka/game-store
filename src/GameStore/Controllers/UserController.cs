@@ -18,9 +18,9 @@ public class UserController : ControllerBase
 
     // GET api/<UserController>
     [HttpGet()]
-    public ActionResult<UserDto> Get()
+    public ActionResult<UserPresentationDto> Get()
     {
-        var user = new UserDto(new UserName("Bob", "Rob"), new PhoneNumber("123456789"), new Email("bobrob@bobrob.br"));
+        var user = new UserPresentationDto("Bob", "Rob", "123456789","bobrob@bobrob.br");
         return Ok(user);
     }
 
