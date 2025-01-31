@@ -1,9 +1,15 @@
-﻿using UserManagement.Entities;
+﻿using UserManagement.Dto;
+using UserManagement.Entities;
 
 namespace UserManagement.Repositories;
-public class UserReadRepository : IUserReadRepository
+internal class UserReadRepository : IUserReadRepository
 {
     public bool DoesEmailExist(string email)
+    {
+        throw new NotImplementedException();
+    }
+
+    public User GetByEmail(string email)
     {
         throw new NotImplementedException();
     }

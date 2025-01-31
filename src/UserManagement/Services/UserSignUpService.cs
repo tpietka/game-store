@@ -1,10 +1,9 @@
-﻿using UserManagement.Entities;
-using UserManagement.Exceptions;
+﻿using UserManagement.Exceptions;
 using UserManagement.Repositories;
 using UserManagement.ViewModels;
 
 namespace UserManagement.Services;
-public class UserSignUpService : IUserSignUpService
+internal class UserSignUpService : IUserSignUpService
 {
     private readonly IUserSaveRepository _userSaveRepository;
     private readonly IUserReadRepository _userReadRepository;
