@@ -1,4 +1,4 @@
-﻿namespace UserManagement.Entities;
+﻿namespace UserManagement.ValueObjects;
 internal class EmailVerificationStatus
 {
 }
