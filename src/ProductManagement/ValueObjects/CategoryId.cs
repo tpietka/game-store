@@ -1,6 +1,3 @@
 ﻿namespace ProductManagement.ValueObjects;
 
-internal class CategoryId
-{
-    private 
-}
+internal record CategoryId(int Id);

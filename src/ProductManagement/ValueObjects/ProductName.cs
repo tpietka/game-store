@@ -1,5 +1,3 @@
 ﻿namespace ProductManagement.ValueObjects;
 
-internal class ProductName
-{
-}
+internal record ProductName(string Name);

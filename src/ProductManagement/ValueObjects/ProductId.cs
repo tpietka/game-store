@@ -1,5 +1,3 @@
 ﻿namespace ProductManagement.ValueObjects;
 
-internal class ProductId
-{
-}
+internal record ProductId(int Id);
